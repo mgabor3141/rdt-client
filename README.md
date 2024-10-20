@@ -54,7 +54,7 @@ Instead of running in Docker you can install it as a service in Linux.
 
     ```sudo apt-get update && sudo apt-get install -y dotnet-sdk-8.0```  
 
-2. Get latest archive from [releases](https://github.com/rogerfar/rdt-client/releases):  
+2. Get latest archive from [releases](https://github.com/mgabor3141/rdt-client/releases):  
 ```wget <zip_url>```
 3. Extract to path of your choice (~/rtdc in this example):  
 ```unzip RealDebridClient.zip -d ~/rdtc && cd ~/rdtc```
@@ -109,7 +109,7 @@ Currently there 4 available download clients:
 
 #### Internal Downloader
 
-This experimental [downloader](https://github.com/rogerfar/Downloader.NET) can be used to download files with multiple sections in parallel.
+This experimental [downloader](https://github.com/mgabor3141/Downloader.NET) can be used to download files with multiple sections in parallel.
 
 It has the following options:
 

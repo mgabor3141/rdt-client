@@ -5,7 +5,7 @@ INSTALL_DIR="/opt/rdtc"
 INSTALLED_DIR="$INSTALL_DIR/.installed"
 INSTALLED_FILE="$INSTALLED_DIR/version.txt"
 BACKUP_DIR="$INSTALL_DIR/.backup"
-GITHUB_API_URL="https://api.github.com/repos/rogerfar/rdt-client/releases/latest"
+GITHUB_API_URL="https://api.github.com/repos/mgabor3141/rdt-client/releases/latest"
 DOWNLOAD_URL=$(curl -s "$GITHUB_API_URL" | jq -r '.assets[0].browser_download_url')
 
 # Function to check if a newer version is available
