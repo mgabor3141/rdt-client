@@ -39,9 +39,10 @@ public class SymlinkDownloader(String uri, String destinationPath, String path) 
 
             List<String> unWantedExtensions =
             [
-                ".zip",
-                ".rar",
-                ".tar"
+                // These cause any torrent that includes a compressed file to completely fail and not be processed by arrs
+                // ".zip",
+                // ".rar",
+                // ".tar"
             ];
 
             if (unWantedExtensions.Any(m => fileExtension == m))
